@@ -1,0 +1,372 @@
+/* Boyler_temp */
+* {
+
+    font-family: 'Amiri', serif;
+    
+}
+
+/* 
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+background: #ffc115;
+border-radius: 3px; 
+}
+::-webkit-scrollbar-track {
+    background:transparent;
+    
+} */
+
+
+
+
+
+/*________________________________________________ Navbar ________________________________________________________ */
+
+span.navbar-toggler-icon{
+    position: absolute;
+    left: 10px;
+    top: 15px;
+}
+.side-btn{
+position: absolute;
+    right: 10px;
+    top: 18px;
+    word-spacing: 5px;
+}
+.navbar-toggler {
+    outline: none ;
+    border: none;
+}
+
+#nav_ul {
+    font-size: 14px;
+    justify-content: center;
+
+}
+
+.navbar-brand {
+    font-size: 30px;
+
+
+
+}
+.logo_li {
+    right: 0;
+    position:absolute;
+    margin-right: 20px;
+    color: #5c5c5c;
+  
+}
+.link_li{
+    text-decoration: none;
+    color:#939393;
+}
+.link_li:hover{
+color: #5c5c5c;
+}
+.drop-item{
+position: absolute;
+    left: 0;
+    bottom: 0;
+    
+}
+@media screen and (min-width:993px) {
+    .dropdown:hover .dropdown-menu {
+        display: block !important;
+
+    }
+    
+
+    .dropdown:hover .dropdown-menu.show {
+        display: none !important;
+    }
+}
+
+
+
+.dropdown-item {
+    font-weight: lighter !important;
+    font-size: 14px;
+    color: #5c5c5c;
+    border: none;
+
+}
+
+ul.dropdown-menu {
+    border-top: 1px solid black !important;
+
+    border: 1px solid #e7e7e7;
+    border-radius: 0px;
+
+
+}
+
+nav{
+    
+    border-bottom: 0.1px solid #d6d7d2;
+    padding-left:0 ;
+}
+
+#first-dropdown {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .55);
+    font-weight: lighter;
+
+}
+
+#last_dropdown {
+    padding: 30px;
+}
+#side_nav{
+    background-color: #0000;
+
+}
+.content{
+    min-width: 100vh;
+    width: 100%;
+}
+
+
+
+
+
+
+/*________________________________________________________ Body _____________________________________*/
+
+
+/* .slider {
+    display: flex;
+    width: 20%;
+    margin-top: 4%;
+    } */
+
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top {
+    padding: 3px;
+}
+
+
+
+#img-2{
+ display: none;
+ 
+ 
+ 
+}
+
+.card {
+    transition: all   1.3s ease-in-out;
+
+}
+
+
+.card:hover #img-1{
+    display: none;
+    cursor: pointer;
+}
+
+.card:hover #img-2{
+    display: block;
+    cursor: pointer;
+}
+#slider_heading{
+    color: #939393;
+    text-align: center;
+}
+#slider_price{
+    color: #939393;
+    text-align: center;
+}
+
+#heading{
+    font-size: 24px;
+    color: #5c5c5c;
+    text-align: center;
+    font-weight: lighter;
+}
+#products_btn{
+    text-transform: uppercase;
+    border: 1px solid #5c5c5c;
+    color: #fff;
+    font-weight: lighter;
+    border-radius: 0;
+    padding: 12px 20px;
+    transition: #fff 0.4s linear;
+    position: relative;
+}
+#products_btn:hover{
+    
+    
+    color: #5c5c5c;
+    
+    
+
+}
+
+#products_btn::before{
+    content:" ";
+    position: absolute;
+    left: 0;
+    top: 0%;
+    background-color: #5c5c5c;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+    transform-origin: 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+}
+#products_btn::before{
+    transform: scale(1);
+}
+#products_btn:hover::before{
+    transform: scaleX(0);
+}
+#sec-slider{
+    transition:all 0.5s ease-in-out ;
+
+}
+#sec-slider:hover{
+/* transition-timing-function:  cubic-bezier(0.5,1.6,0.4,0.7); */
+transform: scale(1.04);
+cursor: pointer;
+
+
+}
+#slider-2{
+transition: all 0.7s ease-in-out;
+overflow: hidden;
+
+}
+
+
+
+
+/*_________________________________________________ Foooter___________________________________________________ */
+
+
+.link{
+    text-decoration: none;
+}
+.col-md-4{
+    color: #939393;
+}
+.main_heading{
+    font-size: 14px;
+    color: #5c5c5c;
+}
+#suffuse{
+    text-decoration:none;
+    color: #5c5c5c;
+}
+#suffuse:hover{
+    color: #939393;
+}
+.cont{
+    font-size: 17px;
+
+}
+.cost-link{
+    color: #939393;
+}
+.cost-link:hover{
+    color: #5c5c5c;
+}
+#get-know{
+    font-size: 17px;
+}
+.icons-1{
+    text-decoration: none;
+}
+
+.carousel-control-next-icon {
+    background-image:url(https://www.kindpng.com/picc/m/94-942818_right-angle-bracket-carousel-arrow-hd-png-download.png) ;
+    
+    
+    
+}
+.carousel-control-prev-icon {
+    background-image:url(https://www.kindpng.com/picc/m/501-5013598_png-file-svg-carousel-arrow-png-transparent-png.png);
+
+}
+
+
+.carousel-control-prev {
+ 
+    left: 17px;
+    height: 80%;
+    
+
+}
+.carousel-control-next ,.carousel-control-prev{
+    width: 3%;
+}
+.carousel-control-next {
+    right: 17px;
+    height: 80%;
+    
+
+}
+
+
+
+.accordion_button_1{
+    /* display: none !important; */
+    display: flex; 
+justify-content: space-between; 
+padding: 5px 5px 0px 10px ; 
+border: none ;
+
+
+}
+
+.accordion_button_2{
+    text-transform: uppercase;
+}
+
+#accordion_button_3{
+    text-transform: uppercase;
+}
+#last_heading{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* .plus-icon{
+    margin: 0px 10px 10px 490px 
+} */
+
+
+
+
+#icon-1{
+height: 20vh;
+}
+
+
+#dropdown-btn{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    border: none !important;
+    z-index: 1;
+}
+.dropdown-toggle{
+    border: 1px solid #4f4f4f;
+    height: 35px;
+    width: 65px;
+    font-size: 18px;
+    padding: 0px;
+    color: #5c5c5c;
+    text-transform: uppercase;
+    background-color: #fff !important;
+    font-weight: lighter;
+    font-family: 'Amiri',serif;
+}
+
+
+
+
+

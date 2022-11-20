@@ -1,0 +1,143 @@
+/* ____before___using__Media_query */
+.container-1{
+    display: none;
+}
+
+.accordion{
+     display: none;
+}
+
+#last_heading{
+    display: none;
+}
+
+#last-footer{
+    display: none;
+}
+
+/* _____Media_query_For_Responsive______ */
+
+
+
+
+@media(min-width:96px  ) and (max-width:635px){
+
+
+    /* For_main_slider */
+    #carouselExampleFade{
+        width: auto;
+        display: none;
+    }
+
+    .container-1{
+        
+        display: block;
+        position: sticky;
+    }
+    button.navbar-toggler {
+        padding: 0;
+     
+    }
+    #sec-slider {
+        margin: 0px 0px 20px 0px;
+        
+    }
+    footer{
+        display: none;
+        width: 10%;
+    }
+    .accordion{
+        display: block;
+    }
+    #last_heading{
+        margin: 10px 0px 10px 0px ;
+        display: block;
+        color: #939393;
+
+    }
+    
+    #accordion-icon{
+        margin: 10px 0px 10px 0px ;
+        justify-content: center;
+        display: flex;
+    }
+    #last-footer{
+        display: block;
+    }
+    
+    .i-1{
+        padding: 5px;
+    }
+    .plus-1{
+        color: #5c5c5c;
+        position: absolute; 
+        right:15px;             
+    }
+    .list-accordion-1{
+        text-transform: uppercase;
+        color: #5c5c5c;
+        font-size: 15px;
+     margin: 5px 20px;
+        
+    }
+    
+    .list-accordion-2{
+        text-transform: uppercase;
+        color: #5c5c5c;
+        font-size: 15px;
+        margin: 5px 20px;
+        
+    }
+    .list-accordion-3{
+        text-transform: uppercase;
+        color: #5c5c5c;
+        font-size: 15px;
+        margin: 5px 20px;
+
+    }
+    .logo_li{
+        display: none;
+    }
+    .plus-icon img{
+        position: relative;
+        right:1px ;
+        /* display: none; */
+    }
+
+
+    /* ______sidenavbar_____ */
+    /* .cart{
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 360px;
+        min-height: 100vh;
+        padding: 20px;
+        background: #eee;
+        box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
+        transition: 0.3s;
+    }
+    
+    
+    
+    
+    #close-cart{
+        position: absolute;
+        top: 1rem;
+        right: 0.8rem;
+        font-size: 1.2rem;
+        color: orange;
+        cursor: pointer;
+    
+    } */
+
+    .accordion-item{
+        padding: 10px 0px;
+    }
+   /* .accordion_button_1{
+    background-color: #fff !important;
+   }
+   */
+ 
+
+}

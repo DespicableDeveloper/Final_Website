@@ -1,0 +1,25 @@
+
+.Casuel_slider{
+    /* border: 1px solid #000; */
+}
+.card{
+    border: none;
+}
+#c-1{
+    color: #4b4949;
+    text-decoration: none;
+    cursor: pointer;
+    font-size:15px;
+}
+#c-2{
+    color:#939393;
+    font-size:15px;
+}
+#soldout{
+    font-size: 17px;
+    position: absolute;
+    background-color: #fff;
+    border: none;
+
+
+}
